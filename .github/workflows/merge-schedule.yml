@@ -1,7 +1,10 @@
-name: Update staging with master
+name: Scheduled API test
 on:
+  pull_request:
+    branches:
+      - master
   schedule:
-    - cron: '*/3 * * * *'
+    - cron: '*/2 * * * *'
 
 jobs:
   productionPromotion:
