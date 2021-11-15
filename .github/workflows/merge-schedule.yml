@@ -1,7 +1,7 @@
 name: Update staging with master
 on:
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '*/3 * * * *'
 
 jobs:
   productionPromotion:
